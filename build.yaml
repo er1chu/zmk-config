@@ -13,4 +13,5 @@
 #
 ---
 include:
-  - board: planck_rev6
+  - board: nice_nano_v2
+    shield: crbn
