@@ -56,7 +56,7 @@
 		
 		upper {
 			bindings = <
-			 &kp F20 LSG_T(ESC) &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp F20 &kp F20 &kp F20 LCTL(KC_A) &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp F20 &kp F20 &trans &kp F20 &kp F20 &kp F20 &kp F20 SGUI(KC_4) SGUI(KC_4) &kp KP_N0 LALT(LEFT) LALT(DOWN) LALT(UP) LALT(RIGHT)
+			 &kp F20 &kp LS(LG(ESC)) &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp F20 &kp F20 &kp F20 &kp LCTRL(LG(A)) &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp F20 &kp F20 &trans &kp F20 &kp F20 &kp F20 &kp F20 LS(LG(4)) LS(LG(4)) &kp KP_N0 &kp LALT(LEFT) &kp LALT(DOWN) &kp LALT(UP) &kp LALT(RIGHT)
 			>;
 		};
 	};
