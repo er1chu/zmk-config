@@ -20,7 +20,7 @@
 				&mo 4 &kp LCTRL &kp LALT &kp LGUI &mo 1 &kp SPACE &kp SPACE &mo 2 &kp LEFT &kp DOWN &kp UP &kp RIGHT
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+			// sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 		};
 
 		lower {
@@ -31,7 +31,7 @@
 				&trans &trans &trans &trans &trans &trans &trans &mo 3 &kp C_PREV &kp C_VOL_DN &kp C_VOL_UP &kp C_NEXT
 			>;
 
-			sensor-bindings = <&inc_dec_kp PG_DN PG_UP>;
+			// sensor-bindings = <&inc_dec_kp PG_DN PG_UP>;
 		};
 
 		raise {
@@ -42,7 +42,7 @@
 				&trans &trans &trans &trans &mo 3 &trans &trans &trans &kp C_PREV &kp HOME &kp END &kp C_NEXT
 			>;
 			
-			sensor-bindings = <&inc_dec_kp C_BRI_DEC C_BRI_INC>;
+			// sensor-bindings = <&inc_dec_kp C_BRI_DEC C_BRI_INC>;
 		};
 		
 		control {
@@ -52,6 +52,7 @@
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 				&bootloader &trans &trans &trans &trans &trans &trans &trans &bt BT_PRV &trans &trans &bt BT_NXT
 			>;
+			// sensor-bindings = <&inc_dec_kp C_BRI_DEC C_BRI_INC>;
 		};
 		
 		upper {
