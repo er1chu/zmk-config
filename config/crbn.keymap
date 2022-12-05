@@ -56,7 +56,7 @@
 		
 		upper {
 			bindings = <
-				&trans &kp LC(LS(ESC))  &trans &kp LALT(UP) &trans &trans &trans &kp KP_N7 &kp KP_N8 &kp KP_N9 &trans &kp BSPC
+				&trans &kp LC(LS(ESC))  &trans &kp LALT(UP) &trans &trans &trans &trans &trans &trans &trans &reset
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 				&bootloader &trans &trans &trans &trans &trans &trans &trans &bt BT_PRV &trans &trans &bt BT_NXT
