@@ -56,10 +56,10 @@
 		
 		upper {
 			bindings = <
-				&trans &kp LC(LS(ESC)) &trans &kp LALT(UP) &bt BT_SEL 3 &bt BT_SEL 4 &trans &trans &trans &trans &trans &reset
+				&trans &kp LC(LS(ESC)) &trans &trans &bt BT_SEL 3 &bt BT_SEL 4 &trans &trans &trans &trans &trans &reset
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-				&bootloader &trans &trans &trans &trans &trans &trans &trans &bt BT_PRV &trans &trans &bt BT_NXT
+				&bootloader &trans &trans &trans &trans &kp LEFT_COMMAND(LS(NUMBER_4)) &trans &trans &bt BT_PRV &trans &trans &bt BT_NXT
 			>;
 		};
 	};
